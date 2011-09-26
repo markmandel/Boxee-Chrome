@@ -1,4 +1,5 @@
-findVideos();
+/* findVideos(); */
+doNotifyBoxee(1)
 //window.addEventListener("focus", findVideos);
 
 /**
