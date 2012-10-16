@@ -14,7 +14,7 @@
 		});
 			
 		chrome.pageAction.onClicked.addListener(function(tab) {
-			chrome.tabs.executeScript(null,{code:"var b=document.body;if(b&&!document.xmlVersion){void(z=document.createElement('script'));void(z.src='http://www.boxee.tv/bookmarklet');void(b.appendChild(z));}else{}"});
+			chrome.tabs.executeScript(null,{code:"var b=document.body;if(b&&!document.xmlVersion){void(z=document.createElement('script'));void(z.src='http://bbx.boxee.tv/bookmarklet');void(b.appendChild(z));}else{}"});
 		});
 
 	</script>
